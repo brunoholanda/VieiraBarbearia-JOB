@@ -1,0 +1,17 @@
+footer{
+	text-align: center;
+	background: url("/img/bg.jpg");
+	padding: 40px 0;
+}
+
+.corpyright {
+    color: #FFFFFF;
+	font-size: 13px;
+	margin: 0.1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .corpyright {
+        font-size: 20px;
+    }
+}

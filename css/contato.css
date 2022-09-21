@@ -1,0 +1,62 @@
+
+.insta {
+    padding: 0.5em;
+    display: grid;
+    justify-content: center;
+}
+
+.insta__titulo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 1em;
+    
+}
+
+.horario {
+    padding: 1em;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.localizacao {
+    padding: 1em;
+    text-align: center;
+    font-size: 25px;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.localizacao__titulo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.localizacao__descricao {
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 20px;
+}
+
+.insta__botao {
+    background:#C13584;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.insta__botao:hover {
+    background:#000000;
+}
+
+@media screen and (min-width: 1024px) {
+    .insta__titulo {
+        font-size: 50px;
+    }
+}

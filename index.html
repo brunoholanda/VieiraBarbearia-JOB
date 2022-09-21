@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vieira Barbearia</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/mapa.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                 <span class="cabeçalho__menu-hamburquer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="index.html" class="lista-menu__link">Inicio</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="servicos.html" class="lista-menu__link">Serviços</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="produtos.html" class="lista-menu__link">Produtos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="contato.html" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+            <img src="img/logo.png" alt="Logo da barbearia" class="cabecalho__logo">
+            <a href="index.html" class="opcoes__link"><h1 class="container__titulo"><b class="container__titulo--negrito">Vieira</b>Barbearia</h1></a>
+        </div>
+        <ul class="opcoes">
+           
+            <li class="opcoes__item"><a href="servicos.html" class="opcoes__link">Serviços</a></li>
+            <li class="opcoes__item"><a href="produtos.html" class="opcoes__link">Produtos</a></li>
+            <li class="opcoes__item"><a href="contato.html" class="opcoes__link">Contato</a></li>
+        </ul>
+            <div class="container">
+            <a href="produtos.html" class="container__link">
+                <img src="img/icones/shampoo.png" alt="Carrinho de compras" class="container__imagem-shampoo">
+                <p class="container__texto">Cortes</p>
+            </a>
+            <a href="https://www.instagram.com/vieiraabarbearia/" class="container__link" title="Conheça nosso instagram" target="_blank">
+                <img src="img/icones/instagram.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Produtos</p>
+            </a>
+         </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Conheça o Incrível</h2>
+        <p class="banner__texto">Somos engajados em oferecer o melhor serviço de cuidados com o cabelo 
+            e a barba do homem moderno, favorecendo sua autoestima com sofisticação e elegância !</p>
+            <a href="https://api.whatsapp.com/send?phone=5583981918537&text=Quero%20agendar%20um%20hor%C3%A1rio!" title="Agende seu horário" target="_blank"><button class="banner__botao">Agende Seu Horário !</button></a>
+            
+        
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Vieira Barbearia</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel-01.JPG" alt="cuidar da beleza é coisa de homem"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel-02.JPG" alt="vieira proporciona uma experiencia"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel-03.JPG" alt="estamos esperando por você"></div>
+                     ...
+                    </div>
+                    
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <img src="img/servicos.JPG" alt="Serviços de corte de cabelo e barba estilizada" class="card__imagem">
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Serviços</h4>
+                <p class="card__descricao">Cuidamos da sua beleza deixando seu cabelo e barba no estilo</p>
+                <a href="servicos.html"><button class="card__botao">Saiba Mais</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/produtos.jpg" alt="produtos da nossa barbearia" class="card__imagem">
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Produtos</h4>
+                <p class="card__descricao">Trabalhamos com uma linha de produtos diferenciada e você pode adquirir</p>
+                <a href="produtos.html"><button class="card__botao">Saiba Mais</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/contato.jpg" alt="nosso contato" class="card__imagem">
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Contato</h4>
+                <p class="card__descricao">Entre em contato para agendar o seu horário e saber mais sobre nós</p>
+                <a href="contato.html"><button class="card__botao">Saiba Mais</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mapa">
+        <h3 class="mapa__titulo">Nosso Estabelecimento</h3>
+        <p class="mapa__descricao">Nosso estabelecimento esta localizado nos Bancários</p>
+        <div class="mapa__conteudo"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.7879719654657!2d-34.848242985405726!3d-7.150497694836882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc32413dd433b%3A0x561e9dd82d228934!2sVieira%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1663712183835!5m2!1spt-BR!2sbr" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        
+    </section>
+
+    <footer class="rodape">
+        <div class="rodape__icone">
+            <p class="corpyright"> 	&copy; Corpyright Vieira Barbearia - 2022
+        </div>    
+    </footer>
+
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 5,
+                slidesPerView: 1,
+                pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                }
+            });
+        </script>
+</body>
+</html>

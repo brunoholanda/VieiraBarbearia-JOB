@@ -1,0 +1,74 @@
+.servicos li {
+    border: 2px solid #000000;
+    margin: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.servicos__titulo {
+    padding: 00.5em;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.servicos-descricao {
+    padding: 0.5em;
+}
+
+.servicos__preco {
+    padding: 1em;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.servicos li:hover {
+	border-color: #C78C19;
+}
+
+.servicos__titulo:hover {
+	font-size: 34px;
+}
+
+.card__botao {
+    background:#25D366;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    width: 80%;
+    margin-bottom: 1em;    
+    font-size: 25px;
+}
+
+.card__botao:hover {
+    background: #000000;
+    font-weight: bold;
+}
+
+.card__botao:active {
+    background: #002792;
+}
+
+@media screen and (min-width: 1024px) {
+    .servicos  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .servicos__titulo {
+        font-size: 38px;
+       
+    }
+    
+    .servicos-descricao {
+        font-size: 30px;
+        
+    }
+    
+    .servicos__preco {
+        font-size: 32px;
+        
+    }
+  
+}
