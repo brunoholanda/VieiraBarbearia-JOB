@@ -20,4 +20,3 @@ https://vieira-barbearia-job-95e3.vercel.app/
 :spades: Mobile First;<br>
 :spades: java (Swiper Paginarion);<br>
 :spades: Minificação de Imagens<br>
-
