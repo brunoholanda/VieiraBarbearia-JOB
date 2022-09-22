@@ -1,6 +1,6 @@
 # Site Barbearia Vieira
 
-Projeoto desenvolvido para estreitar a comunicação entre a Barbearia Vieira e seus clientes, 
+Projeto desenvolvido para estreitar a comunicação entre a Barbearia Vieira e seus clientes, 
 com informações praticas e objetivas sobre serviços, produtos, localizacao  e meios de contato.
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
