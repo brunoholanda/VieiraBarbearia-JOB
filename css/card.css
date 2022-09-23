@@ -30,6 +30,12 @@
     margin-top: 00.5em;
 }
 
+.card__botao:hover {
+    background: #002792;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 @media screen and (min-width: 1024px) {
       .card__titulo {
         font-size: 40px;
